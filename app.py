@@ -19,10 +19,10 @@ post_1 = Post(
     author='Scott'
 )
 post_1.save()       # This will perform an insert
-print(post_1.title)
-post_1.title = 'A Better Post Title'
-post_1.save()       # This will perform an atomic edit on "title"
-print(post_1.title)
+#print(post_1.title)
+#post_1.title = 'A Better Post Title'
+#post_1.save()       # This will perform an atomic edit on "title"
+#print(post_1.title)
 
 
 @app.route('/')
