@@ -25,6 +25,7 @@ def list():
   else: # List all POIs
     pois = poi.POI.objects
 
+  # Imprime POIs na resposta
   resp = ''
   for p in pois:
     resp += str(p)
